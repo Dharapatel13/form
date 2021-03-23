@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: Roboto;
+}
+
+.employment_lable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.employment-header {
+  height: 9em;
+}
+
+.employment__form-item {
+  font-size: 1.2em;
+}
+
+.employment__form-inptbox {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+}
+
+.employment-title {
+  margin-top: 1em;
+  color: #82C6C2;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.employment-items {
+  font-size: 1.1em;
+}
+
+.employment-footer {
+  background: #82C6C2;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.img {
+  z-index: -1;
+}
+
+.img-title {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.upload {
+  width: 100%;
+  border: 1px solid;
+}
+
+.personal {
+  border: 1px solid;
+}
+
+@media only screen and (max-width: 970px) {
+  .uplod {
+    width: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
